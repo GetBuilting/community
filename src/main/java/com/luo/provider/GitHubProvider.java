@@ -43,6 +43,7 @@ public class GitHubProvider {
     //获取用户信息
     public GitHubUser getGitHubUser(String accessionToken){
         //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
+        //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
         OkHttpClient client = new OkHttpClient();
         Request request = new Request.Builder()
                 .url("https://api.github.com/user")
